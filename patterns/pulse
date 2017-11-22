@@ -1,0 +1,1 @@
+PULSE %{TIMESTAMP_ISO8601:syslog_timestamp} %{SYSLOGHOST:syslog_hostname}\s+%{TIMESTAMP_ISO8601}\s+%{HOSTNAME} PulseSecure: %{DATA} (?:%{DATA})(?:.)(?:%{USERNAME:pulse_username})\(%{DATA:pulse_realm}\)\[%{DATA:pulse_role}\] - %{GREEDYDATA}
