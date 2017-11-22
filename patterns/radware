@@ -1,0 +1,1 @@
+RADWARE %{TIMESTAMP_ISO8601:syslog_timestamp} %{SYSLOGHOST:syslog_hostname} %{DATA:radware_severity}\s+%{DATA}\s+<%{DATA:radware_module}>: %{GREEDYDATA:message}
